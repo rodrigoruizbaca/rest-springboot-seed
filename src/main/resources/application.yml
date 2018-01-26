@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: local
+
+rest:
+  endpoint: https://api.fixer.io/latest
+
+---
+spring:
+  profiles: dev
+rest:
+  endpoint: https://api.fixer.io/latest
