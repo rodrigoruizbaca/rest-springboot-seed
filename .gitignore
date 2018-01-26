@@ -1,0 +1,7 @@
+lib/*
+target/*
+docker/*
+.classpath
+.project
+.settings/*
+
